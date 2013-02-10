@@ -1,0 +1,25 @@
+--- #YAML:1.0
+name:               Surveyor-App
+version:            0.11
+abstract:           Run benchmarks from a package
+author:
+    - brian d foy <bdfoy@cpan.org>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Benchmark:   0
+    Test::More:  0.94
+resources:
+    Repository:  https://github.com/briandfoy/surveyor-app
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.55_02
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
